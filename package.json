@@ -1,6 +1,6 @@
 {
   "name": "react-native-sl-vlcplayer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   "email": "mpjayawardena@gmail.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xuyuanzhou/react-native-yz-vlcplayer.git"
+    "url": "git+https://github.com/xuyuanzhou/react-native-sl-vlcplayer.git"
   },
   "license": "MIT"
 }
