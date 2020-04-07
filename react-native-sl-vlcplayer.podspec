@@ -8,20 +8,23 @@ Pod::Spec.new do |s|
   s.summary        = package['description']
   s.description    = package['description']
   s.author         = package['author']
-  s.homepage       = 'https://github.com/CrashMJ/react-native-yz-vlcplayer'
-  s.source       = { :git => "https://github.com/CrashMJ/react-native-yz-vlcplayer.git", :branch => "master",
-  :tag => s.version.to_s }
+  s.homepage       = 'https://github.com/CrashMJ/react-native-sl-vlcplayer'
+  s.source       = { :git => "https://github.com/CrashMJ/react-native-sl-vlcplayer.git", :branch => "master",
+  :tag => s.version }
 
   s.ios.deployment_target = "9.0"
 
-  s.subspec "RCTVLCPlayer" do |ss|
-    ss.source_files  = "ios/RCTVLCPlayer/*.{h,m}"
-    s.static_framework = true
-  end
+  # s.subspec "RCTVLCPlayer" do |ss|
+  #   ss.source_files  = "ios/RCTVLCPlayer/*.{h,m}"
+  #   s.static_framework = true
+  # end
 
-  s.dependency "React"
+  # s.dependency "React"
 
-  s.dependency "RCTVLCPlayer"
+  # s.dependency "RCTVLCPlayer"
 
-  s.default_subspec = "RCTVLCPlayer"
+  # s.default_subspec = "RCTVLCPlayer"
+  s.source_files  = "ios/**/*.{h,m}"
+
+  s.dependency 'React'
 end
